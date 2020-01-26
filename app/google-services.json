@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1007660684828",
+    "firebase_url": "https://project-x-50b3d.firebaseio.com",
+    "project_id": "project-x-50b3d",
+    "storage_bucket": "project-x-50b3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007660684828:android:c2b9854da7ed98ab5131d9",
+        "android_client_info": {
+          "package_name": "com.vinu.projectx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007660684828-ehhrh46fiamtcb4tuirtusri9edg79ob.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vinu.projectx",
+            "certificate_hash": "48d9f6d4a821f6b48083a4e7271567b76f0f5458"
+          }
+        },
+        {
+          "client_id": "1007660684828-5uohc3g6bhlv8v3co5ko4mci327t1uvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA0hovxOHDJMxU34EFnTsD7HLUR3IMUl0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007660684828-5uohc3g6bhlv8v3co5ko4mci327t1uvj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

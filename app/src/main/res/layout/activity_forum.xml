@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        app:cardCornerRadius="20dp"
+        tools:ignore="MissingConstraints"
+        android:elevation="0dp"
+        android:outlineAmbientShadowColor="#111"
+        app:cardBackgroundColor="#C9C5C5"
+        app:cardElevation="0dp"
+        android:outlineSpotShadowColor="#111">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                tools:srcCompat="@tools:sample/avatars"
+                tools:ignore="MissingConstraints"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:paddingLeft="50dp"
+                android:text="product_name"
+                android:textSize="30dp"
+
+                android:textColor="#FFEB3B">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="product_price"
+                android:paddingLeft="50dp"
+                android:textSize="40dp"
+                android:textStyle="italic"
+                android:textColor="#020202">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="50dp"
+                android:textColor="#111">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/buyButn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="50dp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/cartButn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="200dp">
+
+    </Button>
+
+
+</RelativeLayout>

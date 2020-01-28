@@ -1,4 +1,5 @@
 <resources>
+    <string name="BASE_URL">https://mob2shop.000webhostapp.com</string>
     <string name="app_name">mob2shop</string>
     <string-array name="country_arrays">
         <item>Choose Country</item>

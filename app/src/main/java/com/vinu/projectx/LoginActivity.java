@@ -1,6 +1,7 @@
 package com.vinu.projectx;
 
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
@@ -85,6 +86,7 @@ public class LoginActivity extends AppCompatActivity {
 
     // Action listners for 'Sign In' and 'Sign Up'
     private void setUpViewActions(){
+        final Context cntx = this;
         signUp_text.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -96,8 +98,18 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 validate();
+                new NetworkService().loginRequest(cntx,name,pass);
             }
         });
+    }
+
+
+
+    private void showLoading(){
+        progressDialog= new ProgressDialog(LoginActivity.this);
+        progressDialog.setMessage("Please Wait..!");
+        progressDialog.setCancelable(false);
+        progressDialog.show();
     }
 
 
